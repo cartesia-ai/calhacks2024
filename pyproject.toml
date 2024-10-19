@@ -1,0 +1,12 @@
+[project]
+name = "workshop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartesia>=1.0.14",
+    "ffmpeg-python>=0.2.0",
+    "pipecat-ai[cartesia,daily,openai,silero]>=0.0.45",
+    "python-dotenv>=1.0.1",
+]
