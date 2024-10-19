@@ -40,6 +40,13 @@ python3 main.py
 
 Finally, open up the room URL in your browser, and you should be able to talk to the agent!
 
+Try modifying the system prompt (which starts with `"You are a helpful LLM in a WebRTC call..."`) in `main.py` to see how the agent's behavior changes!
+
+Some fun prompts you could try:
+
+- `You are a pirate in a WebRTC call. Respond to everything the user says like a pirate.`
+- `You are a overzealous salesman selling used Honda Civics in a WebRTC call. Whatever the user says, guide them towards buying a used Honda Civic.`
+
 ## Project Structure
 
 ### `cartesia-quickstart.py`
