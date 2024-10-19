@@ -11,7 +11,7 @@ This repository contains the code for a voice agent that can be used to interact
 1. Go to [Daily](https://daily.co) and create a room and an API key. (When you press “Sign Up”, click “Daily Video” instead of “Daily Bots”.)
 2. Go to [the OpenAI platform](http://platform.openai.com) and create an API key.
 3. Go to [the Cartesia playground](http://play.cartesia.ai) and create an API key.
-4. Paste the API keys into your `.env` file.
+4. Paste the API keys into a new `.env` file created by copying `.env.example` to `.env`.
 
 #### Install Python dependencies
 
@@ -60,3 +60,7 @@ This file contains the main logic of the agent. It connects to the Daily room we
 ### `runner.py`
 
 This file contains some code to help configure the agent with the API keys in `.env` so it can connect to the Daily room we created earlier. You probably don't need to change anything here.
+
+### `pyproject.toml`, `.python-version`, `uv.lock`
+
+These files are used to manage the dependencies of the project. You probably don't need to change anything here.
