@@ -49,7 +49,10 @@ Finally, open up the room URL in your browser, and you should be able to talk to
 
 If you want to use the Cartesia API directly to generate speech, you can use this file as a starting point. It's sourced from the [Cartesia Python Quickstart Guide](https://docs.cartesia.ai/get-started/make-an-api-request).
 
-### `.env`
+### `.env.example` (you should copy this file to `.env`)
+
+> [!TIP]
+> Copy this file to `.env` and fill in the values to get started.
 
 This file stores all the keys we got from Daily, OpenAI, and Cartesia, and sets the Cartesia voice ID to use. (You can get your own voice ID from the Voice Library in the Cartesia playground!)
 
